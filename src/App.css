@@ -1,1 +1,14 @@
-
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+}

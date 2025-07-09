@@ -1,8 +1,12 @@
 import './App.css'
+import {coursesTitleArray} from "../arrays.ts";
 
-function App() {
+const App = () => {
   return (
     <>
+      <ul>
+        {coursesTitleArray.map((course, index) => <li key={index}>{course}</li>)}
+      </ul>
     </>
   )
 }
