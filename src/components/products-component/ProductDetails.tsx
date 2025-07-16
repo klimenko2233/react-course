@@ -24,7 +24,7 @@ export const ProductDetails: FC<Props> = ({ product }) => {
                 <p><strong>Category:</strong> {product.category}</p>
                 <p><strong>Brand:</strong> {product.brand}</p>
                 <p><strong>Status:</strong> {product.availabilityStatus}</p>
-                <p><strong>On stock:</strong> {product.stock} шт</p>
+                <p><strong>On stock:</strong> {product.stock}</p>
                 <p><strong>Minimum order:</strong> {product.minimumOrderQuantity} шт</p>
                 <p><strong>SKU:</strong> {product.sku}</p>
             </div>
@@ -76,7 +76,7 @@ export const ProductDetails: FC<Props> = ({ product }) => {
                             <p><strong>Comment:</strong> {review.comment}</p>
                             <p><strong>Name:</strong> {review.reviewerName}</p>
                             <p><strong>Email:</strong> {review.reviewerEmail}</p>
-                            <p className="text-sm text-gray-500">Дата: {review.date}</p>
+                            <p className="text-sm text-gray-500">Date: {review.date}</p>
                         </div>
                     ))}
                 </div>
