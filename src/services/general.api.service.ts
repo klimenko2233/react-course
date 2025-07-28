@@ -1,0 +1,5 @@
+const baseUrl:string = import.meta.env.VITE_API_BASE_URL;
+
+export const getAll = async <T,>(endpoint:string):Promise<T> => {
+  return await fetch(`${baseUrl}/${endpoint}`).then((res) => res.json());
+};
