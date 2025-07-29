@@ -10,10 +10,10 @@ export const routes = createBrowserRouter([
     {
         path: '/',element:<App/>,children:[
             {path:'users/jsonplaceholder',element:<UsersPlaceholder/>},
-            {path:'/users/dummyjson',element:<UsersDummy/>},
-            {path:'/posts/jsonplaceholder',element:<PostsPlaceholder/>},
-            {path:'/posts/dummyjson',element:<PostsDummy/>},
-            {path:'/comments/jsonplaceholder',element:<CommentsPlaceholder/>}
+            {path:'users/dummyjson',element:<UsersDummy/>},
+            {path:'posts/jsonplaceholder',element:<PostsPlaceholder/>},
+            {path:'posts/dummyjson',element:<PostsDummy/>},
+            {path:'comments/jsonplaceholder',element:<CommentsPlaceholder/>}
         ]
     }
 ])
