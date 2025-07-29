@@ -20,6 +20,9 @@ export const Menu = () => {
             <li>
                 <Link to={'/comments/jsonplaceholder'}>Comments from JSONPlaceholder</Link>
             </li>
+            <li>
+                <Link to={'comments/dummyjson'}>Comments from DummyJSON</Link>
+            </li>
         </ul>
     );
 };

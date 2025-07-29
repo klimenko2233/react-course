@@ -1,4 +1,25 @@
-ul{
+ul {
+    list-style: none;
+    padding: 8px 16px;
+    margin: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    gap: 12px;
 }
+li a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #e6f0ff;
+    color: #007acc;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+li a:hover {
+    background-color: #cce4ff;
+}
+
