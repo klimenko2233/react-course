@@ -1,4 +1,4 @@
-import {CommentsPlaceholder} from "../components/comments-placeholder-component/CommentsPlaceholder.tsx";
+import {CommentsPlaceholder} from "../../components/comments-placeholder-component/CommentsPlaceholder.tsx";
 
 export const CommentsPlaceholderPage = () => {
     return (

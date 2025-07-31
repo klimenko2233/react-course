@@ -1,4 +1,4 @@
-import {UsersPlaceholder} from "../components/users-placeholder-component/UsersPlaceholder.tsx";
+import {UsersPlaceholder} from "../../components/users-placeholder-component/UsersPlaceholder.tsx";
 
 export const UsersPlaceholderPage = () => {
     return (

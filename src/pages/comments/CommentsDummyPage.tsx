@@ -1,4 +1,4 @@
-import {CommentsDummy} from "../components/comments-dummy-component/CommentsDummy.tsx";
+import {CommentsDummy} from "../../components/comments-dummy-component/CommentsDummy.tsx";
 
 export const CommentsDummyPage = () => {
     return (
