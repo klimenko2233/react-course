@@ -5,8 +5,8 @@ function App() {
   return (
     <div>
         <MainMenu/>
-        <Outlet/>
         You can see information about users, posts and comments from jsonplaceholder and dummyjson here)
+        <Outlet/>
 
     </div>
   )
