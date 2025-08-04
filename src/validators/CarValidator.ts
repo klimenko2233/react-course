@@ -1,6 +1,7 @@
 import * as Joi from "joi";
 
 export const carValidator = Joi.object({
+    id: Joi.number().optional(),
     brand: Joi.string().pattern(new RegExp("^[a-zA-Zа-яА-яёЁіІїЇєЄҐґ]{1,20}$"))
         .messages({
             "string.pattern.base": "Your brand value didn't match pattern",
