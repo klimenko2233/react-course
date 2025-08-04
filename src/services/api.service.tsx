@@ -16,3 +16,11 @@ export const getCars = async ():Promise<ICar[]> => {
 export const createCar = async (car: ICar) => {
    await axiosInstance.post<ICar>('/cars', car);
 }
+
+export const deleteCar = async (id: number) => {
+    await axiosInstance.delete(`/cars/${id}`);
+}
+
+export const updateCar = async (id: number, car: ICar) => {
+    await axiosInstance.patch(`/cars/${id}`, car);
+}
