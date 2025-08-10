@@ -1,1 +1,7 @@
-
+.light{
+    background: navajowhite;
+}
+.dark{
+    background: #333;
+    color: white;
+}
