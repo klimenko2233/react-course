@@ -10,6 +10,6 @@ export const routes = createBrowserRouter([
             {path: "users", element: <UsersPage/>},
             {path: "posts", element: <PostsPage/>},
             {path: "comments", element: <CommentsPage/>},
-            {path: "complex", element: <ComplexPage/>},
+            {path: "complex", element: <ComplexPage/>}
         ]}
 ]);
